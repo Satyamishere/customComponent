@@ -2,6 +2,21 @@ import fs from 'fs';
 import path from 'path';
 
 const out = path.join(process.cwd(), 'storybook-static', 'index.html');
+
+// If Storybook generated a non-empty index.html, don't overwrite it.
+try {
+  if (fs.existsSync(out)) {
+    const stat = fs.statSync(out);
+    if (stat.size && stat.size > 0) {
+      console.log('Index exists and non-empty, skipping write:', out);
+      process.exit(0);
+    }
+  }
+} catch (e) {
+  // continue to attempt write on any error
+  console.warn('Error checking existing index.html, will attempt to write fallback:', e.message);
+}
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
