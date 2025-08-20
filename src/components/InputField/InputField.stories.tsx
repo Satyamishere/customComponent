@@ -24,8 +24,8 @@ export const Default: Story = {
   args: {
     value: '',
     label: 'Name',
-    placeholder: 'Enter your name',
-    helperText: 'This is a helper text',
+  placeholder: 'Enter your name',
+  helperText: 'This is a helper text (demo)',
     variant: 'outlined',
     size: 'md',
   },
