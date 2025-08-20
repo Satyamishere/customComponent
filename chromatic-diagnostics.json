@@ -1,0 +1,727 @@
+{
+  "activity": {},
+  "announcedBuild": {
+    "id": "68a5dcc22192c3a26c606ba0",
+    "number": 8,
+    "status": "PUBLISHED",
+    "autoAcceptChanges": false,
+    "app": {
+      "id": "68a5d1c4b9382f6368019481",
+      "turboSnapAvailability": "UNAVAILABLE"
+    },
+    "storybookUrl": "https://68a5d1c4b9382f6368019481-aedpxntmst.chromatic.com/"
+  },
+  "build": {
+    "id": "68a5dcc22192c3a26c606ba0",
+    "number": 8,
+    "status": "IN_PROGRESS",
+    "autoAcceptChanges": false,
+    "app": {
+      "manageUrl": "https://www.chromatic.com/manage?appId=68a5d1c4b9382f6368019481",
+      "setupUrl": "https://www.chromatic.com/setup?appId=68a5d1c4b9382f6368019481",
+      "account": {
+        "exceededThreshold": false,
+        "paymentRequired": false,
+        "billingUrl": "https://www.chromatic.com/billing?accountId=68a5b21bd8519c629a590d4f"
+      },
+      "repository": {
+        "provider": "github"
+      }
+    },
+    "storybookUrl": "https://68a5d1c4b9382f6368019481-aedpxntmst.chromatic.com/",
+    "specCount": 16,
+    "componentCount": 5,
+    "testCount": 16,
+    "changeCount": 0,
+    "errorCount": 0,
+    "actualTestCount": 16,
+    "actualCaptureCount": 16,
+    "inheritedCaptureCount": 0,
+    "interactionTestFailuresCount": 0,
+    "webUrl": "https://www.chromatic.com/build?appId=68a5d1c4b9382f6368019481&number=8",
+    "browsers": [
+      {
+        "browser": "chrome"
+      }
+    ],
+    "features": {
+      "uiTests": true,
+      "uiReview": true
+    },
+    "turboSnapEnabled": null,
+    "wasLimited": false,
+    "tests": [
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/DataTable",
+            "displayName": "DataTable"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Loading",
+          "component": {
+            "name": "Components/DataTable",
+            "displayName": "DataTable"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Empty",
+          "component": {
+            "name": "Components/DataTable",
+            "displayName": "DataTable"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/InputField",
+            "displayName": "InputField"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Error",
+          "component": {
+            "name": "Components/InputField",
+            "displayName": "InputField"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Disabled",
+          "component": {
+            "name": "Components/InputField",
+            "displayName": "InputField"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Password",
+          "component": {
+            "name": "Components/InputField",
+            "displayName": "InputField"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Clearable",
+          "component": {
+            "name": "Components/InputField",
+            "displayName": "InputField"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Primary",
+          "component": {
+            "name": "Example/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Secondary",
+          "component": {
+            "name": "Example/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Large",
+          "component": {
+            "name": "Example/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Small",
+          "component": {
+            "name": "Example/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Logged In",
+          "component": {
+            "name": "Example/Header",
+            "displayName": "Header"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Logged Out",
+          "component": {
+            "name": "Example/Header",
+            "displayName": "Header"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Logged Out",
+          "component": {
+            "name": "Example/Page",
+            "displayName": "Page"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Logged In",
+          "component": {
+            "name": "Example/Page",
+            "displayName": "Page"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      }
+    ]
+  },
+  "configuration": {},
+  "environment": {},
+  "exitCode": 0,
+  "exitCodeKey": "OK",
+  "fileInfo": {
+    "lengths": [
+      {
+        "pathname": "assets\\Button-B2efaGtC.css",
+        "contentLength": 522,
+        "knownAs": "assets/Button-B2efaGtC.css"
+      },
+      {
+        "pathname": "assets\\Button-e5nacO3f.js",
+        "contentLength": 1257,
+        "knownAs": "assets/Button-e5nacO3f.js"
+      },
+      {
+        "pathname": "assets\\Button.stories-BzrdGEBp.js",
+        "contentLength": 1290,
+        "knownAs": "assets/Button.stories-BzrdGEBp.js"
+      },
+      {
+        "pathname": "assets\\DataTable.stories-D_Ms7Fj9.js",
+        "contentLength": 3453,
+        "knownAs": "assets/DataTable.stories-D_Ms7Fj9.js"
+      },
+      {
+        "pathname": "assets\\Header-Ck-SSN7O.css",
+        "contentLength": 514,
+        "knownAs": "assets/Header-Ck-SSN7O.css"
+      },
+      {
+        "pathname": "assets\\Header-DpGHuooQ.js",
+        "contentLength": 1823,
+        "knownAs": "assets/Header-DpGHuooQ.js"
+      },
+      {
+        "pathname": "assets\\Header.stories-BO6Wcg7f.js",
+        "contentLength": 792,
+        "knownAs": "assets/Header.stories-BO6Wcg7f.js"
+      },
+      {
+        "pathname": "assets\\iframe-CmoiHfkv.js",
+        "contentLength": 1227629,
+        "knownAs": "assets/iframe-CmoiHfkv.js"
+      },
+      {
+        "pathname": "assets\\iframe-Cp29mwWO.css",
+        "contentLength": 2901,
+        "knownAs": "assets/iframe-Cp29mwWO.css"
+      },
+      {
+        "pathname": "assets\\InputField.stories-BoCVMmMC.js",
+        "contentLength": 6058,
+        "knownAs": "assets/InputField.stories-BoCVMmMC.js"
+      },
+      {
+        "pathname": "assets\\jsx-runtime-D_zvdyIk.js",
+        "contentLength": 725,
+        "knownAs": "assets/jsx-runtime-D_zvdyIk.js"
+      },
+      {
+        "pathname": "assets\\Page-CeeQJVdd.css",
+        "contentLength": 913,
+        "knownAs": "assets/Page-CeeQJVdd.css"
+      },
+      {
+        "pathname": "assets\\Page.stories-Bd22IBfW.js",
+        "contentLength": 3499,
+        "knownAs": "assets/Page.stories-Bd22IBfW.js"
+      },
+      {
+        "pathname": "assets\\preload-helper-D9Z9MdNV.js",
+        "contentLength": 1234,
+        "knownAs": "assets/preload-helper-D9Z9MdNV.js"
+      },
+      {
+        "pathname": "assets\\react-18-oBtaA-qC.js",
+        "contentLength": 178444,
+        "knownAs": "assets/react-18-oBtaA-qC.js"
+      },
+      {
+        "pathname": "favicon-wrapper.svg",
+        "contentLength": 5803,
+        "knownAs": "favicon-wrapper.svg"
+      },
+      {
+        "pathname": "favicon.svg",
+        "contentLength": 2163,
+        "knownAs": "favicon.svg"
+      },
+      {
+        "pathname": "iframe.html",
+        "contentLength": 18141,
+        "knownAs": "iframe.html"
+      },
+      {
+        "pathname": "index.html",
+        "contentLength": 507,
+        "knownAs": "index.html"
+      },
+      {
+        "pathname": "index.json",
+        "contentLength": 4278,
+        "knownAs": "index.json"
+      },
+      {
+        "pathname": "nunito-sans-bold-italic.woff2",
+        "contentLength": 49460,
+        "knownAs": "nunito-sans-bold-italic.woff2"
+      },
+      {
+        "pathname": "nunito-sans-bold.woff2",
+        "contentLength": 47144,
+        "knownAs": "nunito-sans-bold.woff2"
+      },
+      {
+        "pathname": "nunito-sans-italic.woff2",
+        "contentLength": 49620,
+        "knownAs": "nunito-sans-italic.woff2"
+      },
+      {
+        "pathname": "nunito-sans-regular.woff2",
+        "contentLength": 47072,
+        "knownAs": "nunito-sans-regular.woff2"
+      },
+      {
+        "pathname": "project.json",
+        "contentLength": 913,
+        "knownAs": "project.json"
+      },
+      {
+        "pathname": "sb-addons\\common-manager-bundle.js",
+        "contentLength": 588361,
+        "knownAs": "sb-addons/common-manager-bundle.js"
+      },
+      {
+        "pathname": "sb-common-assets\\favicon-wrapper.svg",
+        "contentLength": 5803,
+        "knownAs": "sb-common-assets/favicon-wrapper.svg"
+      },
+      {
+        "pathname": "sb-common-assets\\favicon.svg",
+        "contentLength": 2163,
+        "knownAs": "sb-common-assets/favicon.svg"
+      },
+      {
+        "pathname": "sb-common-assets\\nunito-sans-bold-italic.woff2",
+        "contentLength": 49460,
+        "knownAs": "sb-common-assets/nunito-sans-bold-italic.woff2"
+      },
+      {
+        "pathname": "sb-common-assets\\nunito-sans-bold.woff2",
+        "contentLength": 47144,
+        "knownAs": "sb-common-assets/nunito-sans-bold.woff2"
+      },
+      {
+        "pathname": "sb-common-assets\\nunito-sans-italic.woff2",
+        "contentLength": 49620,
+        "knownAs": "sb-common-assets/nunito-sans-italic.woff2"
+      },
+      {
+        "pathname": "sb-common-assets\\nunito-sans-regular.woff2",
+        "contentLength": 47072,
+        "knownAs": "sb-common-assets/nunito-sans-regular.woff2"
+      },
+      {
+        "pathname": "sb-manager\\globals-module-info.js",
+        "contentLength": 17751,
+        "knownAs": "sb-manager/globals-module-info.js"
+      },
+      {
+        "pathname": "sb-manager\\globals-runtime.js",
+        "contentLength": 2126101,
+        "knownAs": "sb-manager/globals-runtime.js"
+      },
+      {
+        "pathname": "sb-manager\\globals.js",
+        "contentLength": 1564,
+        "knownAs": "sb-manager/globals.js"
+      },
+      {
+        "pathname": "sb-manager\\runtime.js",
+        "contentLength": 443013,
+        "knownAs": "sb-manager/runtime.js"
+      },
+      {
+        "pathname": "vite-inject-mocker-entry.js",
+        "contentLength": 28761,
+        "knownAs": "vite-inject-mocker-entry.js"
+      },
+      {
+        "pathname": "vite.svg",
+        "contentLength": 1497,
+        "knownAs": "vite.svg"
+      }
+    ],
+    "paths": [
+      "assets/Button-B2efaGtC.css",
+      "assets/Button-e5nacO3f.js",
+      "assets/Button.stories-BzrdGEBp.js",
+      "assets/DataTable.stories-D_Ms7Fj9.js",
+      "assets/Header-Ck-SSN7O.css",
+      "assets/Header-DpGHuooQ.js",
+      "assets/Header.stories-BO6Wcg7f.js",
+      "assets/iframe-CmoiHfkv.js",
+      "assets/iframe-Cp29mwWO.css",
+      "assets/InputField.stories-BoCVMmMC.js",
+      "assets/jsx-runtime-D_zvdyIk.js",
+      "assets/Page-CeeQJVdd.css",
+      "assets/Page.stories-Bd22IBfW.js",
+      "assets/preload-helper-D9Z9MdNV.js",
+      "assets/react-18-oBtaA-qC.js",
+      "favicon-wrapper.svg",
+      "favicon.svg",
+      "iframe.html",
+      "index.html",
+      "index.json",
+      "nunito-sans-bold-italic.woff2",
+      "nunito-sans-bold.woff2",
+      "nunito-sans-italic.woff2",
+      "nunito-sans-regular.woff2",
+      "project.json",
+      "sb-addons/common-manager-bundle.js",
+      "sb-common-assets/favicon-wrapper.svg",
+      "sb-common-assets/favicon.svg",
+      "sb-common-assets/nunito-sans-bold-italic.woff2",
+      "sb-common-assets/nunito-sans-bold.woff2",
+      "sb-common-assets/nunito-sans-italic.woff2",
+      "sb-common-assets/nunito-sans-regular.woff2",
+      "sb-manager/globals-module-info.js",
+      "sb-manager/globals-runtime.js",
+      "sb-manager/globals.js",
+      "sb-manager/runtime.js",
+      "vite-inject-mocker-entry.js",
+      "vite.svg"
+    ],
+    "statsPath": "",
+    "total": 5064465,
+    "hashes": {
+      "assets/Button-B2efaGtC.css": "8829bff3b4c34c7a",
+      "assets/Button-e5nacO3f.js": "962916653c50d753",
+      "assets/Button.stories-BzrdGEBp.js": "70fe43965fbc8629",
+      "assets/DataTable.stories-D_Ms7Fj9.js": "e252813112524fae",
+      "assets/Header-Ck-SSN7O.css": "a52003ab7e8055c2",
+      "assets/Header-DpGHuooQ.js": "0cb2d21d6b089cfd",
+      "assets/Header.stories-BO6Wcg7f.js": "5119e14f0e873a47",
+      "assets/iframe-CmoiHfkv.js": "a382d3f4ec60a02b",
+      "assets/iframe-Cp29mwWO.css": "9bbf43e081a2467e",
+      "assets/InputField.stories-BoCVMmMC.js": "f8c050a4c375ac74",
+      "assets/jsx-runtime-D_zvdyIk.js": "86a1ef27de5049ce",
+      "assets/Page-CeeQJVdd.css": "b086cbcf64f944ed",
+      "assets/Page.stories-Bd22IBfW.js": "e9735328b952fbde",
+      "assets/preload-helper-D9Z9MdNV.js": "bedf453d42a798f7",
+      "assets/react-18-oBtaA-qC.js": "e3403297d517da0d",
+      "favicon-wrapper.svg": "ac2f5da4f59a4ab7",
+      "favicon.svg": "d3380c3fb63a8430",
+      "iframe.html": "bb5192abc93b71be",
+      "index.html": "660f6642c88935e4",
+      "index.json": "ba734b893734c308",
+      "nunito-sans-bold-italic.woff2": "d64464b3594b3fb9",
+      "nunito-sans-bold.woff2": "0bd5b61b7fb7f7d5",
+      "nunito-sans-italic.woff2": "b7807d9de055e9a0",
+      "nunito-sans-regular.woff2": "6687b7be04c2debe",
+      "project.json": "0af19972ab1f309d",
+      "sb-addons/common-manager-bundle.js": "ecf17ba92ae0b314",
+      "sb-common-assets/favicon-wrapper.svg": "ac2f5da4f59a4ab7",
+      "sb-common-assets/favicon.svg": "d3380c3fb63a8430",
+      "sb-common-assets/nunito-sans-bold-italic.woff2": "d64464b3594b3fb9",
+      "sb-common-assets/nunito-sans-bold.woff2": "0bd5b61b7fb7f7d5",
+      "sb-common-assets/nunito-sans-italic.woff2": "b7807d9de055e9a0",
+      "sb-common-assets/nunito-sans-regular.woff2": "6687b7be04c2debe",
+      "sb-manager/globals-module-info.js": "b18a86dfca78a76c",
+      "sb-manager/globals-runtime.js": "1518ed6f61f73e44",
+      "sb-manager/globals.js": "65b5882f82eea1c2",
+      "sb-manager/runtime.js": "54a1ef8533b2fcc1",
+      "vite-inject-mocker-entry.js": "8f179b681bd08377",
+      "vite.svg": "b81e9b0882317145"
+    }
+  },
+  "flags": {
+    "storybookBuildDir": [
+      "storybook-static"
+    ],
+    "exitOnceUploaded": "",
+    "onlyChanges": "false",
+    "debug": true,
+    "outputDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "fileHashing": true,
+    "interactive": true
+  },
+  "git": {
+    "version": "2.30.1.windows.1",
+    "gitUserEmail": "satyamkumarjha9818@gmail.com",
+    "uncommittedHash": "fatal: ambiguous argument 'diff': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\ne69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "rootPath": "D:/assignment2",
+    "commit": "d62ddbac43cd6b94e86d856d1b947268cc465b40",
+    "committedAt": 1755692243000,
+    "committerEmail": "satyamkumarjha9818@gmail.com",
+    "committerName": "Satyamishere",
+    "branch": "main",
+    "slug": "satyamishere/customcomponent",
+    "fromCI": false,
+    "parentCommits": [
+      "d62ddbac43cd6b94e86d856d1b947268cc465b40"
+    ]
+  },
+  "input": [],
+  "isOnboarding": false,
+  "isPublishOnly": false,
+  "options": {
+    "fromCI": false,
+    "inAction": false,
+    "dryRun": false,
+    "debug": true,
+    "autoAcceptChanges": false,
+    "exitZeroOnChanges": false,
+    "exitOnceUploaded": true,
+    "diagnosticsFile": "chromatic-diagnostics.json",
+    "fileHashing": true,
+    "interactive": false,
+    "isLocalBuild": false,
+    "originalArgv": [
+      "--project-token=chpt_86ddd7f988f65f4",
+      "--storybook-build-dir=storybook-static",
+      "--exit-once-uploaded",
+      "--only-changes=false",
+      "--debug"
+    ],
+    "logFile": "chromatic.log",
+    "forceRebuild": true,
+    "storybookBuildDir": "storybook-static",
+    "storybookLogFile": "build-storybook.log",
+    "branchName": ""
+  },
+  "packageJson": {
+    "name": "assignment2",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build",
+      "chromatic": "npx chromatic --project-token=chpt_86ddd7f988f65f4"
+    },
+    "dependencies": {
+      "@tailwindcss/vite": "^4.1.12",
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1",
+      "tailwindcss": "^4.1.12"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.33.0",
+      "@storybook/addon-vitest": "^9.1.2",
+      "@storybook/react-vite": "^9.1.2",
+      "@types/react": "^19.1.10",
+      "@types/react-dom": "^19.1.7",
+      "@vitejs/plugin-react-swc": "^4.0.0",
+      "@vitest/browser": "^3.2.4",
+      "@vitest/coverage-v8": "^3.2.4",
+      "eslint": "^9.33.0",
+      "eslint-plugin-react-hooks": "^5.2.0",
+      "eslint-plugin-react-refresh": "^0.4.20",
+      "eslint-plugin-storybook": "^9.1.2",
+      "globals": "^16.3.0",
+      "playwright": "^1.54.2",
+      "storybook": "^9.1.2",
+      "typescript": "~5.8.3",
+      "typescript-eslint": "^8.39.1",
+      "vite": "^7.1.2",
+      "vitest": "^3.2.4"
+    }
+  },
+  "packagePath": "D:\\assignment2\\package.json",
+  "projectMetadata": {
+    "hasRouter": false,
+    "creationDate": {},
+    "storybookCreationDate": {},
+    "numberOfCommitters": 1,
+    "numberOfAppFiles": 2
+  },
+  "rebuildForBuildId": "68a5dbfbb8d911dbb830014e",
+  "runtimeMetadata": {
+    "nodePlatform": "win32",
+    "nodeVersion": "22.13.0",
+    "packageManager": "npm",
+    "packageManagerVersion": "9.6.2"
+  },
+  "sentinelUrls": [
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/68a5d1c4b9382f6368019481-aedpxntmst/.chromatic/files-copied.3078486576.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20250820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250820T143339Z&X-Amz-Expires=1800&X-Amz-Signature=eed96961ce564ed56cbb8e6d876ba9896ec92d1119270f0164a76770877baa89&X-Amz-SignedHeaders=host&x-id=GetObject"
+  ],
+  "sessionId": "299c6ce6-ddec-4dd0-8427-6a99eaf0bd1f",
+  "skipSnapshots": true,
+  "sourceDir": "storybook-static",
+  "startedAt": 1755700423205,
+  "storybook": {
+    "version": "",
+    "builder": {
+      "name": "@storybook/builder-vite"
+    },
+    "baseDir": "."
+  },
+  "storybookUrl": "https://68a5d1c4b9382f6368019481-aedpxntmst.chromatic.com/",
+  "task": "verify",
+  "uploadedBytes": 0,
+  "uploadedFiles": 0,
+  "userError": false
+}
