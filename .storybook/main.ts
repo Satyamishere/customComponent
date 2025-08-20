@@ -1,4 +1,8 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const config: StorybookConfig = {
   "stories": [
@@ -16,8 +20,8 @@ const config: StorybookConfig = {
   viteFinal: async (config, { configType }) => {
     config.resolve = config.resolve || {};
     config.resolve.alias = Object.assign({}, config.resolve.alias || {}, {
-      react: require('path').resolve(__dirname, '..', 'node_modules', 'react'),
-      'react-dom': require('path').resolve(__dirname, '..', 'node_modules', 'react-dom')
+      react: path.resolve(__dirname, '..', 'node_modules', 'react'),
+      'react-dom': path.resolve(__dirname, '..', 'node_modules', 'react-dom')
     });
     return config;
   }
