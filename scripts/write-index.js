@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const out = path.join(__dirname, '..', 'storybook-static', 'index.html');
+const out = path.join(process.cwd(), 'storybook-static', 'index.html');
 const html = `<!doctype html>
 <html lang="en">
 <head>
